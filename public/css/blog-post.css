@@ -73,7 +73,7 @@ body {
 /* navbar */
 .navbar {
   transition: all 500ms ease-in-out;
-  /* box-shadow: 0px 3px 3px #00000023; */
+  padding: 0px 140px;
 }
 
 .navbar > div {
@@ -489,6 +489,10 @@ footer .copy {
 
 /* tablet */
 @media (max-width: 991.98px) {
+  .navbar {
+    padding: 0px 30px;
+  }
+
   .navbar .nav-link {
     margin-right: 0px;
     text-decoration: none;
